@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Student Grade Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Student Grade Analyzer</h1>
+
+  <!-- Canvas for drawing -->
+  <canvas id="myCanvas"></canvas>
+
+  <!-- Generate Data & Statistics Content -->
+  <div class="content">
+    <div class="generate-data">
+      <h2>Generate Data</h2>
+      <p>Number of Students: <input id="num-students" type="number" value="30"></p>
+      <button id="new-data">Generate Random Grades</button>
+    </div>
+
+    <div class="stats">
+      <h2>Statistics</h2>
+      <ul>
+        <li>Perfect Grade (100%) Present: <span id="perfect-grade">----</span></li>
+        <li>Lowest Grade: <span id="lowest-grade"></span></li>
+        <li>Highest Grade: <span id="highest-grade"></span></li>
+        <li>Average Grade: <span id="ave-grade"></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Load JavaScript -->
+  <script src="math-extensions.js"></script>
+  <script src="array-helpers.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

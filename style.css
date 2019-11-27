@@ -1,0 +1,40 @@
+html {
+    background-color: grey;
+}
+
+body {
+    width: 600px;
+    margin: auto;
+    padding: 15px 100px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid grey;
+}
+
+.content {
+    display: flex;
+}
+
+.content div {
+    flex: 1;
+}
+
+input {
+    width: 50px;
+}
+
+span {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
